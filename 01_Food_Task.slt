@@ -1,0 +1,24 @@
+{
+    "job_class": "PipelineJob",
+    "job_name": "01_Food_Task",
+    "note": "",
+    "parameters": {
+        "enabled": true,
+        "execution_timeout": null,
+        "include_external_urls": true,
+        "job_alias": null,
+        "job_type": "standard",
+        "llfeed_token": "wOT5zYqabjiGVw6PQKB79QRE9ExxP6qB",
+        "max_failures": 10,
+        "max_in_flight": 200,
+        "notification": {
+            "recipients": null
+        },
+        "num_instances": 1,
+        "pipeline_path": "01_Food",
+        "snaplex_path": "IW-Ground"
+    },
+    "schedule": {},
+    "trigger": {},
+    "trigger_type": "ScheduleTrigger"
+}
